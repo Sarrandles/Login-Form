@@ -1,0 +1,101 @@
+body{
+  background-color: black;
+}
+
+form {
+  /* center the form */
+  margin: 0 auto;
+  width: 400px;
+  /* outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  text-align: center;
+  background-color: white;
+}
+
+input, textarea {
+    font-size: 10px;
+    color: 	#808080;
+}
+
+.hello{
+  margin-top: 40px;
+}
+
+.welcome{
+  color: white;
+  text-align: center;
+  border-top: 1px;
+  border-color: white;
+  border-top-style: solid;
+  margin-top: auto;
+  display:inline;
+  justify-content: auto;
+}
+
+h6{
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial sans-serif;
+}
+
+.recover{
+  padding:60px;
+  color: #808080;;
+}
+
+a{
+    color: #CCCCCC;
+}
+
+a:hover{
+  color:red;
+}
+
+h6:hover{
+  color:red;
+}
+
+.button{
+padding-top: 40px;
+
+}
+button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width:220px;
+    height:50px;
+}
+
+.form1{
+  font-size: 12px;
+  width:200px;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  padding: 20px;
+  display:flex;
+}
+
+.form1 input[type=text]{
+  font-size: 16px;
+position:relative;
+border-bottom-style: solid;
+border-right-style: none;
+border-left-style: none;
+border-top-style: none;
+border-width: thin;
+border-bottom-color: grey;
+padding:5px;
+}
+
+#welcomeMessage{
+  color:black;
+  background-color: white;
+  width:400px;
+  height:auto;
+  display:none;
+/*i can't get the bar at the top to fit the welcome message properly like in the wireframe*/
+}
